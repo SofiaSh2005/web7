@@ -1,0 +1,140 @@
+let switchmode = document.getElementById("switchmode");
+
+switchmode.onclick = function (){
+    let theme = document.getElementById("theme");
+    if(theme.getAttribute("href")=="style.css"){
+        theme.href = "dark.css";
+    } else {
+        theme.href = "style.css";
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" id="theme">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;800&family=Tinos:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <title>Ресторан</title>
+</head>
+
+
+<body>
+    <form name="file_upload" method="POST" action="form.php" enctype="multipart/form-data"> 
+        <label>Ваш аватар: <input type="file" name="avatar"></label> 
+        <input type="submit" name="send" value="Отправить файл"> 
+    </form>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>promo</title>
+    <link rel="stylesheet" href="css/light-theme.css" id="theme">
+</head>
+<body>
+    <a href="header.php">header</a>
+    <a href="hero.php">hero</a>
+    <a href="main.php">main</a>
+    <a href="bigpic.php">bigpic</a>
+    <a href="main2.php">main2</a>
+    <a href="pages.php">pages</a>
+    <a href="insta.php">insta</a>
+    <a href="finalpic.php">finalpic</a>
+    <a href="footer.php">footer</a>
+    <a href="rightmenu.php">rightmenu</a>
+    <a href="rightmenu2.php">rightmenu2</a>
+    <a href="rightmenu3.php">rightmenu3</a>
+    <a href="socialmedika.php">socialmedia</a>
+    <a href="rightmenu4.php">rightmenu4</a>
+    <a href="tagies.php">tags</a>
+    <a href="rightmenu5.php">rightmenu5</a>
+    <a href="loginin.php">loginin</a>
+    <a href="switchtheme.php">switchtheme</a>
+    <header>
+            </header>
+    <div class="hero">
+            </div>
+    <section class="main">
+            </section>
+    <section class="bigpic">
+            </section>
+    <section class="main2">
+            </section>
+    <nav class="pages">
+            </nav>
+    <span class="insta">
+            </span>
+    <section class="finalpic">
+            </section>
+    <footer>
+            </footer>
+    <aside class="rightmenu">
+            </aside>
+    <aside class="rightmenu2">
+            </aside>
+    <aside class="rightmenu3">
+            </aside>
+    <div class="socialmedika">
+            </div>
+    <aside class="rightmenu4">
+            </aside>
+    <div class="tagies">
+            </div>
+    <aside class="rightmenu5">
+            </aside>
+    <div id="loginin">
+            </div>
+    <div class="switchtheme">
+            </div>
+</body>
+</html>
